@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Simple Landing Page</title>
+    <title>My Background Site</title>
+    <style>
+        body {
+            /* Set the background image using its URL */
+            background-image: url('image.jpg');
+            
+            /* Scale the image to cover the entire viewport */
+            background-size: cover;
+            
+            /* Center the image in the viewport */
+            background-position: center center;
+            
+            /* Prevent the image from repeating */
+            background-repeat: no-repeat;
+            
+            /* Fix the background image so it doesn't scroll with the content */
+            background-attachment: fixed;
+            
+            /* Ensure the body takes up the full viewport height */
+            height: 100vh;
+            
+            /* Center the text content vertically and horizontally */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white; /* Change text color for readability */
+            font-family: sans-serif; /* Use a common font */
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Welcome to My Landing Page</h1>
-
-    <img src="image.jpg" alt="Still not found the image.">
+    <h1>Welcome!</h1>
+    <p>This text is now visible on top of the background image.</p>
 
 </body>
 </html>
